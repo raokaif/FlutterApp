@@ -12,7 +12,7 @@ class _CurrencyConverterState extends State<CurrencyConverter> {
   double result = 0;
   @override
   Widget build(BuildContext context) {
-    print("rebuilt");
+    // print("rebuilt");
     final border = OutlineInputBorder(
       borderSide: BorderSide(
         // color: Colors.black,
