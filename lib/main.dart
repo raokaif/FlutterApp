@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter_application_1/currency_converter.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(DevicePreview(builder: (context) => MyApp()));
 }
 
 class MyApp extends StatelessWidget {
